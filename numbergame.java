@@ -3,10 +3,11 @@ public class numbergame {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         Random random=new Random();
-        int randomNumber = random.nextInt(100) + 1;
+        int randomNumber = 0;
         System.out.println("***--------WELCOME TO NUMBER GAME --------***");
         int count=0;
         for(int i=1;i<=3;i++){
+            int randomNumber = random.nextInt(100) + 1;
             System.out.print("Guess the number : ");
             int num= sc.nextInt();
             if(num>randomNumber){
