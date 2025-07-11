@@ -1,5 +1,5 @@
 import java.util.*;
-public class student{
+public class Student{
     public static void main(String [] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter marks of science  : ");
